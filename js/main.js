@@ -17,29 +17,7 @@ $('.about-slider').slick({
   infinite: true,
   slidesToShow: 4,
   slidesToScroll: 1,
-  variableWidth: true,
- //  responsive: [
- //    {
- //      breakpoint: 992,
- //      settings: {
- //        slidesToShow: 3,
- //        slidesToScroll: 3,
- //        infinite: true,
- //        dots: true,
- //        centerMode: true,
- //  		variableWidth: true
- //      }
-   
-	// }
- //   ] 
+  variableWidth: true
 });
 
-// $('.about-slider').slick('slickCurrentSlide').;
 
-
-
-
-
-// $(function(){
-//   $('img').socialpic();
-// });
