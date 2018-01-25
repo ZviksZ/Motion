@@ -1,0 +1,197 @@
+body { width: 100%; margin: 0 auto; }
+
+@media screen and (min-width: 992px) and (max-width: 1199px) { .header-menu { padding: 0; }
+  .header-wrap { width: 65%; }
+  .about-header { width: 12%; }
+  .slick-slider { width: 90%; margin: 0 auto; }
+  .latest-header { width: 17%; }
+  .latest-header-menu { padding-left: 0; }
+  .touch .touch-header { width: 55%; }
+  .touch .touch-btn { width: 20.42%; }
+  .blog .blog-header { width: 25%; }
+  .blog .blog-item .blog-item-head { margin-top: 8px; }
+  .blog .blog-item .blog-item-text { width: 46%; margin-top: 30px; }
+  .get .get-header { width: 16%; }
+  .footer .footer-contact { width: 20%; }
+  .footer .footer-text { width: 39%; } }
+@media screen and (min-width: 768px) and (max-width: 991px) { .header-menu { padding: 0; width: 75%; }
+  .header-menu .header-menu-item { margin-right: 5%; }
+  .header-menu .header-menu-item:last-child { margin-right: 0; }
+  .header-menu .header-menu-item .header-menu-link { font-size: 15px; }
+  .header-wrap { width: 81%; }
+  .header-wrap .header-title { margin-top: 185px; }
+  .header-wrap .header-btn { margin-bottom: 100px; }
+  .services .services-header { width: 15.5%; }
+  .about .about-header { width: 15%; }
+  .about .about-item { margin-bottom: 100px; }
+  .about .slick-slider { width: 77%; margin: 0 auto; margin-bottom: 60px; }
+  .latest .latest-header { width: 22%; }
+  .latest .latest-header-menu { width: 55.15%; padding-left: 0; }
+  .latest .latest-gallery-item { margin-right: 2.21%; }
+  .latest .latest-gallery-item:nth-child(3n) { margin-right: 0; }
+  .touch .touch-header { width: 67%; }
+  .touch .touch-btn { width: 24.86%; }
+  .blog { display: none; }
+  .get .get-header { width: 21%; }
+  .footer .footer-contact { width: 26%; }
+  .footer .footer-text { width: 51%; } }
+@media screen and (max-width: 768px) { .header-menu { padding: 0; width: 75%; }
+  .header-menu .header-menu-item { margin-right: 5%; }
+  .header-menu .header-menu-item:last-child { margin-right: 0; }
+  .header-menu .header-menu-item .header-menu-link { font-size: 15px; }
+  .header-wrap { width: 81%; }
+  .header-wrap .header-title { margin-top: 185px; }
+  .header-wrap .header-btn { margin-bottom: 100px; }
+  .services .services-header { width: 15.5%; }
+  .about .about-header { width: 15%; }
+  .about .about-item { margin-bottom: 100px; }
+  .about .slick-slider { width: 77%; margin: 0 auto; margin-bottom: 60px; }
+  .latest .latest-header { width: 22%; }
+  .latest .latest-header-menu { width: 55.15%; padding-left: 0; }
+  .latest .latest-gallery-item { margin-right: 2.21%; }
+  .latest .latest-gallery-item:nth-child(3n) { margin-right: 0; }
+  .touch .touch-header { width: 67%; }
+  .touch .touch-btn { width: 24.86%; }
+  .blog { display: none; }
+  .get .get-header { width: 21%; }
+  .footer .footer-contact { width: 26%; }
+  .footer .footer-text { width: 51%; } }
+/*----HEADER-----*/
+.header { background: url("../images/header-bg.png") no-repeat; background-size: 100% 100%; background-position: center center; }
+
+.header-logo { width: 7.98%; height: 23px; color: white; font-family: "Montserrat", sans-serif; font-size: 24px; font-weight: 700; line-height: 36px; text-decoration: none; float: left; margin-top: 40px; }
+.header-logo:hover { color: white; text-decoration: none; }
+
+.header-menu { width: 47.36%; float: right; margin: 46px 0 0; }
+
+.header-menu-item { display: inline-block; margin-right: 2.98%; }
+.header-menu-item:last-child { margin-right: 0; }
+
+.header-menu-link { color: white; font-family: "Montserrat", sans-serif; font-size: 14px; font-weight: 400; line-height: 24px; text-decoration: none; }
+.header-menu-link:hover { color: white; text-decoration: underline; }
+
+.header-wrap { margin: 0 auto; width: 51.05%; text-align: center; }
+
+.header-title { width: 100%; color: white; font-weight: 700; font-family: "Montserrat", sans-serif; font-size: 48px; text-transform: uppercase; margin: 246px 0 32px; }
+
+.header-text { color: white; font-weight: 400; line-height: 24px; font-family: "Roboto Slab", serif; font-size: 20px; margin: 0 auto 48px; }
+
+.header-btn { display: inline-block; width: 31.56%; height: 50px; border: 2px solid white; border-radius: 2px; color: white; font-family: "Montserrat", sans-serif; font-size: 16px; font-weight: 400; line-height: 50px; text-transform: uppercase; text-decoration: none; text-align: center; margin-bottom: 260px; box-sizing: border-box; }
+.header-btn:hover { color: white; text-decoration: none; }
+
+/*----END-HEADER----*/
+/*----SERVICES----*/
+.services-header { width: 10.52%; height: 16px; color: #555555; font-family: "Montserrat", sans-serif; font-size: 20px; font-weight: 700; line-height: 24px; text-transform: uppercase; margin: 100px auto 62px; text-align: center; }
+.services-header:after { display: block; content: ""; width: 50px; height: 2px; background-color: #555555; margin: 30px auto 0; }
+
+.services-text { width: 100%; height: 17px; color: #555555; font-family: "Roboto Slab", serif; font-size: 16px; font-weight: 400; line-height: 24px; margin: 0 auto 70px; text-align: center; }
+
+.services-item { text-align: center; padding: 0 7px; margin-bottom: 100px; }
+.services-item .services-item-header { color: #555555; font-family: "Montserrat", sans-serif; font-size: 14px; font-weight: 400; line-height: 24px; text-transform: uppercase; margin: 30px 0 25px; }
+.services-item .services-item-text { color: #555555; font-family: "Roboto Slab", serif; font-size: 14px; font-weight: 400; line-height: 24px; }
+
+/*----END-SERVICES----*/
+/*----ABOUT----*/
+.about { background-color: #f8f8f8; }
+
+.about-header { width: 10.52%; height: 16px; color: #555555; font-family: "Montserrat", sans-serif; font-size: 20px; font-weight: 700; line-height: 24px; text-transform: uppercase; margin: 100px auto 62px; text-align: center; }
+.about-header:after { display: block; content: ""; width: 50px; height: 2px; background-color: #555555; margin: 30px auto 0; }
+
+.about-text { width: 100%; height: 17px; color: #555555; font-family: "Roboto Slab", serif; font-size: 16px; font-weight: 400; line-height: 24px; margin: 0 auto 70px; text-align: center; }
+
+.about-item { width: 48.68%; height: 110px; color: #555555; font-family: "Roboto Slab", serif; font-size: 14px; font-weight: 400; line-height: 24px; margin-bottom: 70px; }
+.about-item:first-child { margin-right: 2.63%; }
+
+.about-slider { margin-bottom: 100px; }
+
+.about-slider-item { box-sizing: border-box; display: inline-block; text-align: center; padding-right: 29px; }
+.about-slider-item .about-slider-name { height: 11px; color: #555555; font-family: "Montserrat", sans-serif; font-size: 14px; font-weight: 700; text-transform: uppercase; margin: 20px 0 14px; }
+.about-slider-item .about-slider-info { height: 14px; color: #555555; font-family: "Roboto Slab", serif; font-size: 13px; font-weight: 400; }
+
+/*----END-ABOUT----*/
+/*----LATEST----*/
+.latest-header { width: 10.52%; height: 16px; color: #555555; font-family: "Montserrat", sans-serif; font-size: 20px; font-weight: 700; line-height: 24px; text-transform: uppercase; margin: 100px auto 62px; text-align: center; width: 14.03%; }
+.latest-header:after { display: block; content: ""; width: 50px; height: 2px; background-color: #555555; margin: 30px auto 0; }
+
+.latest-header-menu { width: 43.15%; margin: 0 auto 72px; }
+.latest-header-menu .latest-header-item { display: block; float: left; margin-right: 5.48%; }
+.latest-header-menu .latest-header-item:last-child { margin-right: 0; }
+.latest-header-menu .latest-header-item:first-child { margin-right: 5.08%; }
+.latest-header-menu .latest-header-item .latest-header-link { font-family: "Roboto Slab", serif; font-size: 16px; font-weight: 400; line-height: 24px; text-decoration: none; color: #555555; }
+.latest-header-menu .latest-header-item .latest-header-link:hover { color: #c0301c; }
+
+.latest-gallery { padding: 0; margin-bottom: 100px; }
+.latest-gallery .latest-gallety-btm { margin-bottom: 30px; }
+.latest-gallery .latest-gallery-item { width: 31.5%; padding: 0; display: inline-block; margin-right: 2.28%; box-sizing: border-box; }
+.latest-gallery .latest-gallery-3n { margin-right: 0; }
+
+/*----LATEST-ABOUT----*/
+/*----TOUCH----*/
+.touch { background: url("../images/touch-bg.png") no-repeat; background-size: cover; margin: 0 auto; }
+.touch .touch-header { width: 41.22%; height: 68px; color: white; font-family: "Roboto Slab", serif; font-size: 30px; font-weight: 400; line-height: 44px; margin: 100px auto 51px; text-align: center; word-spacing: 3px; }
+.touch .touch-btn { display: block; box-sizing: border-box; text-decoration: none; width: 15.78%; height: 50px; border: 2px solid white; border-radius: 2px; color: white; font-family: "Roboto Slab", serif; font-size: 18px; font-weight: 400; line-height: 48px; text-transform: uppercase; text-align: center; margin: 0 auto 100px; }
+
+/*---END-TOUCH----*/
+/*----BLOG----*/
+.blog-header { width: 10.52%; height: 16px; color: #555555; font-family: "Montserrat", sans-serif; font-size: 20px; font-weight: 700; line-height: 24px; text-transform: uppercase; margin: 100px auto 62px; text-align: center; width: 19.29%; }
+.blog-header:after { display: block; content: ""; width: 50px; height: 2px; background-color: #555555; margin: 30px auto 0; }
+
+.blog-text { width: 100%; height: 17px; color: #555555; font-family: "Roboto Slab", serif; font-size: 16px; font-weight: 400; line-height: 24px; margin: 0 auto 70px; text-align: center; }
+
+.blog-item { height: 322px; }
+.blog-item:last-child { margin-bottom: 100px; }
+.blog-item .blog-item-img { float: left; display: block; }
+.blog-item .blog-item-date { margin-left: 3.42%; float: left; width: 6.66%; height: 76px; border: 2px solid #555555; color: #777777; font-family: "Montserrat", sans-serif; font-weight: 700; line-height: 20px; text-transform: uppercase; font-size: 24px; text-align: center; }
+.blog-item .blog-item-date .blog-date-big { width: 94.73%; display: block; margin: 18px auto 6px; }
+.blog-item .blog-item-date .blog-date-small { width: 94.73%; display: block; font-size: 14px; letter-spacing: 2px; }
+.blog-item .blog-item-head { width: 29.21%; display: inline-block; float: left; margin: 15px 0 0 28px; }
+.blog-item .blog-item-head .blog-item-header { display: inline-block; text-decoration: none; margin: 0 0 20px; width: 100%; height: 12px; color: #555555; font-family: "Montserrat", sans-serif; font-size: 16px; font-weight: 700; text-transform: uppercase; cursor: pointer; }
+.blog-item .blog-item-head .blog-item-header:hover { color: #c0301c; }
+.blog-item .blog-item-head .blog-item-author { font-style: italic; margin: 0; width: 59.75%; height: 14px; font-family: "Roboto Slab", serif; font-size: 13px; font-weight: 400; color: #777777; }
+.blog-item .blog-item-text { display: inline-block; margin: 24px 0 0 42px; width: 55.96%; height: 110px; color: #555555; font-family: "Roboto Slab", serif; font-size: 14px; line-height: 24px; font-weight: 400; }
+.blog-item .blog-item-btn { display: inline-block; margin: 34px 0 0 6.11%; color: #777777; font-family: "Roboto Slab", serif; font-size: 13px; font-weight: 700; text-transform: uppercase; text-decoration: none; word-spacing: 2px; letter-spacing: 1px; }
+.blog-item .blog-item-btn:hover { color: #c0301c; }
+
+.blog-line { content: ""; margin: 38px 0; width: 100%; height: 1px; background-color: #dddddd; }
+
+/*----END-BLOG----*/
+/*----GET----*/
+.get { background-color: #f8f8f8; }
+
+.get-header { width: 10.52%; height: 16px; color: #555555; font-family: "Montserrat", sans-serif; font-size: 20px; font-weight: 700; line-height: 24px; text-transform: uppercase; margin: 100px auto 62px; text-align: center; width: 12.98%; }
+.get-header:after { display: block; content: ""; width: 50px; height: 2px; background-color: #555555; margin: 30px auto 0; }
+
+.get-text { width: 100%; height: 17px; color: #555555; font-family: "Roboto Slab", serif; font-size: 16px; font-weight: 400; line-height: 24px; margin: 0 auto 70px; text-align: center; }
+
+.get-contact { width: 20.43%; float: left; }
+.get-contact .get-contact-item1 { margin-bottom: 35px; background-repeat: no-repeat; background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAARCAMAAADe472QAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAhFBMVEVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVX///+I0Oa8AAAAKnRSTlMADHTK9CraEuPlEIVG6oPZTVPY/Qf56ynspbgNwakx/pDiMrCxsjM0s+E5dtm9AAAAAWJLR0QrJLnkCAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAIRJREFUCNc9jtkSgkAQA8MpKIoHioq6iHjQ//+B7i5oHqaS6lRqJAVhFMdRGMgqSfFKE2mWWZPn9mRzLawtpGIJK5Wwdu0NbLWDyoUK9jpA7XfgqBOcG6m5wFU3Y3fa9g6mkx5M6m3ZIScH/ujpvDqPzMuHEY1gROY9BfXw+XnVw+C/+AJq5xFgsJvoJwAAAABJRU5ErkJggg=="); }
+.get-contact .get-contact-item2 { margin-bottom: 35px; background-repeat: no-repeat; background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAUCAMAAACOLiwjAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAP1BMVEVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVX////OZFofAAAAE3RSTlMATuZM58d3k4uHeJKK4+II6OFNeQGTowAAAAFiS0dEFJLfyTUAAAAJcEhZcwAACxIAAAsSAdLdfvwAAABMSURBVBjTxY5JDsAgDANNCHQFSvP/v0KqQPuDzsHWSD4YjsQgD5YJQTPEGLQhHyALjLXLNmT/S44hpx1NSebrXEp+hF9huKtXrbq9G13QCMVzkBf1AAAAAElFTkSuQmCC"); }
+.get-contact .get-contact-item3 { background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAALCAMAAACXmSduAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAYFBMVEVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVX///+ugPu7AAAAHnRSTlMAn/z9IB11cPBkYz3YpA4PDKPaMzKiYO1xJrv1FKBLPWswAAAAAWJLR0QfBQ0QvQAAAAlwSFlzAAALEgAACxIB0t1+/AAAAFlJREFUCNdVztkWQCAARdFbmTUQylD9/2eKhXLe9tsBoSFFCViBVMkQqsx1QGjaj10T3XMhb0nB+2g1jHqKnPUyqMuAsatcrQEeY9uPfUPyWzRzmR2D//35E19DB4CgyzQHAAAAAElFTkSuQmCC"); background-repeat: no-repeat; }
+.get-contact .get-contact-item3 .get-item-header { padding-top: 3px; }
+
+.get-item-header { color: #555555; font-family: "Montserrat", sans-serif; font-size: 14px; font-weight: 700; padding: 4px 0 0 26px; margin: 0; line-height: 1; text-transform: uppercase; }
+
+.get-item-info { color: #555555; font-family: "Roboto Slab", serif; font-size: 12px; font-weight: 400; line-height: 20px; padding: 18px 0 0 27px; margin: 0; }
+
+.get-form { margin: 0 15px 100px 0; float: right; width: 64.03%; color: #555555; font-family: "Roboto Slab", serif; font-size: 12px; font-weight: 400; line-height: 20px; text-transform: uppercase; }
+.get-form .get-form-input { width: 47.94%; height: 44px; border: 1px solid #555555; display: inline-block; float: left; margin-bottom: 21px; padding: 0 16px; }
+.get-form .get-form-input:nth-child(odd) { margin-right: 4.1%; }
+.get-form .get-form-input:focus { border: 1px solid #c0301c; }
+.get-form .get-form-input_message { width: 100%; height: 104px; border: 1px solid #555555; margin-bottom: 21px; padding: 16px 16px 0; }
+.get-form .get-form-input_message:focus { border: 1px solid #c0301c; }
+.get-form .get-form-btn { width: 23.28%; height: 44px; border: 1px solid #555555; background-color: #f8f8f8; color: #555555; font-family: "Roboto Slab", serif; font-size: 12px; font-weight: 400; text-transform: uppercase; float: left; line-height: 44px; box-sizing: border-box; }
+.get-form .get-form-note { width: 47.39%; height: 12px; float: left; margin: 16px 0 0 5.34%; font-family: "Roboto Slab", serif; font-size: 10px; font-weight: 400; line-height: 14px; color: #555555; }
+.get-form .get-form-note_first { color: #c0301c; }
+
+/*----END-GET----*/
+/*----FOOTER----*/
+.footer { background-color: #c0301c; }
+
+.footer-contact { width: 16%; margin: 100px auto 0; }
+.footer-contact:after { display: inline-block; content: ""; width: 27.47%; height: 2px; background-color: white; margin: 30px auto 30px; margin-left: calc(50% - 25px); }
+.footer-contact .footer-link { display: block; float: left; margin-right: 7.69%; }
+.footer-contact .footer-link:last-child { margin-right: 0; }
+
+.footer-text { font-family: "Roboto Slab", serif; font-size: 16px; font-weight: 400; line-height: 24px; margin: 0 auto 100px; width: 31.92%; text-transform: uppercase; color: white; }
+
+/*# sourceMappingURL=styles.css.map */
