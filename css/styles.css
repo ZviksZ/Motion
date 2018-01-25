@@ -35,7 +35,7 @@ body { width: 100%; margin: 0 auto; }
   .get .get-header { width: 21%; }
   .footer .footer-contact { width: 26%; }
   .footer .footer-text { width: 51%; } }
-@media screen and (max-width: 768px) { .header-logo { width: 100%; text-align: center; margin-top: 25px; font-size: 32px; }
+@media screen and (max-width: 767px) { .header-logo { width: 100%; text-align: center; margin-top: 25px; font-size: 32px; }
   .header-menu { padding: 0; width: 100%; text-align: center; margin-top: 30px; }
   .header-menu .header-menu-item { width: 100%; }
   .header-menu .header-menu-item:last-child { margin-right: 0; }
